@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            margin-top: 20px;
+            background-color: beige;
+            padding: 20px;
+            width: 300px;
+            margin: auto;
+
+        }
+        input{
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+        }
+        h3{
+            color: blue;
+        }
+        button{
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="vote"></h1>
+    <h1>
+        <a href="#">Click</a>
+    </h1>
+
+    <input type="text" id="input">
+    <button onclick="demo()">Click to execute Demo Function</button>
+
+
+    
+    <form action="#">
+        <h3>Login Form</h3>
+        <input type="text" id="username">
+        <input type="password" id="password">
+        <button onclick="login()">Login</button>
+         <p id="loginResult"></p>
+    </form>
+   
+
+<!--
+    
+1. 💰 ATM Withdrawal System (UI Version)
+
+Create a webpage with:
+
+An input field to enter withdrawal amount
+A button "Withdraw"
+A div to display result
+Task:
+Initial balance = ₹1000
+On button click, get value using .value
+If balance is sufficient → update balance and display using innerText
+Else → show "Insufficient Balance"
+
+let x = 0;
+if (x) {
+  console.log("hello");
+} else {
+  console.log("hi");
+}
+
+let x = 10;
+if (x == 20) {
+  console.log("hello");
+} else {
+  console.log("hi");
+}
+
+
+
+if (true){
+  console.log("hello");
+  }
+  console.log("hi");
+  console.log("hi");
+
+
+    if(true){
+  let a = 20;
+  }
+  let a = 20;
+
+
+
+
+-->
+
+<select>
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+</select>
+<select>
+    <option value="">Jan</option>
+    <option value="">Feb</option>
+    <option value="">March</option>
+    <option value="">APR</option>
+</select>
+<select name="" id="">
+    <option value="">1995</option>
+     <option value="">1996</option>
+      <option value="">1997</option>
+
+</select>
+
+<select id="day">
+  
+</select>
+<select id="month">
+    
+</select>
+<select id="year">
+    
+</select>
+
+<!-- <p id="count">Count: 0</p> -->
+<div style="border: 1px solid black;"><button onclick="increament()">+</button>
+    <p id="count">0</p>
+<button onclick="decreament()">-</button></div>
+
+<section id="container" style="display: flex;"></section>
+    <script src="./while&doWhile.js"></script>
+</body>
+</html>

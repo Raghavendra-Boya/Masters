@@ -127,3 +127,5 @@ console.log(Boolean(undefined)); // false
 console.log(typeof "Hello"-2); // "undefined"
 
 console.log(NaN == 7);
+
+document.write(0.1 + 0.2);//0.30000000000000004 (due to floating-point precision issues in JavaScript)
