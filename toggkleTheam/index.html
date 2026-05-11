@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle theme</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body id="body" class="bg-white text-black flex justify-center items-center h-screen">
+    <div class="text-center bg-gray-500 p-10">
+        <h1 class="text-4xl font-bold mb-4">TOggle Theme</h1>
+        <button onclick="toggleTheme()" class="bg-blue-500 text-white rounded border-2 border-black py-2 px-4">toggle theme</button>
+        <a href="../startRating/index.html">Click</a>
+    </div>
+
+    <button onclick="decreament()">-</button>
+    <span id="qty">Qty:1</span>
+    <button onclick="increament()">+</button>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: black;" id="body">
+    <divx`>
+        <i class="fa-solid fa-cart-arrow-down" style="color: rgb(116, 192, 252); "></i>
+        <span id="cartCount">0</span>
+        <button onclick="showCount()">Show Cart Count</button>
+
+        <button onclick="addToCart('Laptop')">Laptop</button>
+        <button onclick="addToCart('Mobile')">Mobile</button>
+        <p id="cart"></p>
+    </div>
+
+    <input type="number" placeholder="Price" id="price">
+    <input type="number" placeholder="Qty" id="qty">
+    <p id="total"></p>
+
+   <div id="btn"></div>
+
+
+   <div>
+    <input type="number" id="price" >
+    <button onclick="calculate()">calculate</button>
+    <h2 id="result"></h2>
+   </div>
+
+
+   <div>
+    <input type="number" id="marks" >
+    <button onclick="checkGrade()">Check</button>
+    <h2 id="studentResult"></h2>
+   </div>
+
+
+   <button onclick="theme()">Toggle</button>
     <script src="./functions.js"></script>
 </body>
 </html>
